@@ -1172,8 +1172,8 @@ include "%L"
 #My additions
 <Multi_key> <r> <a> <d>                  : "㎭" U33AD
 <Multi_key> <R> <A> <D>                  : "㎭" U33AD #radian symbol
-<Multi_key> <U003A> <D>                  : "😄" U1F604 #smile LoL
-<Multi_key> <U003A> <P>                  : "😝" U1F61D #tongue
+<Multi_key> <U003A> <D>                  : "😄"
+<Multi_key> <U003A> <P>                  : "😝" 
 <Multi_key> <X> <D>                      : "😂"
 <Multi_key> <b> <b>                      : "•"
 <Multi_key> <Cyrillic_BE> <Cyrillic_BE>  : "«"
