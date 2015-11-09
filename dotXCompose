@@ -727,16 +727,25 @@ include "%L"
 <Multi_key> <bar> <greater>             : "‣"   U2023           # TRIANGULAR BULLET
 #SUPERSCRIPTS:
 #To avoid namespace clashes, <asciicircum> is doubled (will I regret that?)
-<Multi_key> <asciicircum> <asciicircum> <h>       : "ʰ"   U02B0           # SUPERSCRIPT H
-<Multi_key> <asciicircum> <asciicircum> <i>       : "ⁱ"   U2071           # SUPERSCRIPT I
-<Multi_key> <asciicircum> <asciicircum> <j>       : "ʲ"   U02B2           # SUPERSCRIPT J
-<Multi_key> <asciicircum> <asciicircum> <n>       : "ⁿ"   U207F           # SUPERSCRIPT N
-<Multi_key> <asciicircum> <asciicircum> <r>       : "ʳ"   U02B3           # SUPERSCRIPT R
-<Multi_key> <asciicircum> <asciicircum> <w>       : "ʷ"   U02B7           # SUPERSCRIPT W
-<Multi_key> <asciicircum> <asciicircum> <y>       : "ʸ"   U02B8           # SUPERSCRIPT Y
-# So I can use yᵗ/þᵗ and yᵉ/þᵉ
-<Multi_key> <asciicircum> <asciicircum> <e>	  : "ᵉ"	  U1D49		  # MODIFIER LETTER SMALL E
-<Multi_key> <asciicircum> <asciicircum> <t>	  : "ᵗ"	  U1D57		  # MODIFIER LETTER SMALL T
+<Multi_key> <asciicircum> <A>       : "ᴬ" U1D2C # SUPERSCRIPT A
+<Multi_key> <asciicircum> <B>       : "ᴮ" U1D2E # SUPERSCRIPT B
+<Multi_key> <asciicircum> <D>       : "ᴰ" U1D30 # SUPERSCRIPT D
+<Multi_key> <asciicircum> <E>       : "ᴱ" U1D31 # SUPERSCRIPT E
+<Multi_key> <asciicircum> <M>       : "ᴹ" U1D39 # SUPERSCRIPT M
+<Multi_key> <asciicircum> <N>       : "ᴺ" U1D3A # SUPERSCRIPT N
+<Multi_key> <asciicircum> <W>       : "ᵂ" U1D42 # SUPERSCRIPT W
+<Multi_key> <asciicircum> <h>       : "ʰ"   U02B0           # SUPERSCRIPT h
+<Multi_key> <asciicircum> <i>       : "ⁱ"   U2071           # SUPERSCRIPT i
+<Multi_key> <asciicircum> <j>       : "ʲ"   U02B2           # SUPERSCRIPT j
+<Multi_key> <asciicircum> <k>       : "ᵏ"   U1D4F           # SUPERSCRIPT k
+<Multi_key> <asciicircum> <M>       : "ᵐ"   U1D50           # SUPERSCRIPT m
+<Multi_key> <asciicircum> <n>       : "ⁿ"   U207F           # SUPERSCRIPT n
+<Multi_key> <asciicircum> <r>       : "ʳ"   U02B3           # SUPERSCRIPT r
+<Multi_key> <asciicircum> <w>       : "ʷ"   U02B7           # SUPERSCRIPT w
+<Multi_key> <asciicircum> <y>       : "ʸ"   U02B8           # SUPERSCRIPT y
+# So I can use yᵗ/þᵗ and y
+<Multi_key> <asciicircum> <e>	  : "ᵉ"	  U1D49		  # MODIFIER LETTER SMALL E
+<Multi_key> <asciicircum> <t>	  : "ᵗ"	  U1D57		  # MODIFIER LETTER SMALL T
 # Abbreviation for "that":
 <Multi_key> <U00FE> <t>	  			  : "ꝥ"	  UA765		  # LATIN SMALL LETTER THORN WITH STROKE
 #Maybe add: ˀˁ˃˂  Need to be able to talk about ʔˁ...
@@ -1172,8 +1181,8 @@ include "%L"
 #My additions
 <Multi_key> <r> <a> <d>                  : "㎭" U33AD
 <Multi_key> <R> <A> <D>                  : "㎭" U33AD #radian symbol
-<Multi_key> <U003A> <D>                  : "😄"
-<Multi_key> <U003A> <P>                  : "😝" 
+<Multi_key> <U003A> <D>                  : "😄" U1F604 #smile LoL
+<Multi_key> <U003A> <P>                  : "😝" U1F61D #tongue
 <Multi_key> <X> <D>                      : "😂"
 <Multi_key> <b> <b>                      : "•"
 <Multi_key> <Cyrillic_BE> <Cyrillic_BE>  : "«"
@@ -1188,3 +1197,4 @@ include "%L"
 <Multi_key> <j> <o> <i> <n> <parenleft>  : "⋉"
 <Multi_key> <j> <o> <i> <n> <parenright> : "⋊" U2A1D
 <Multi_key> <bar> <dash> : "⊢" U22A2 # turnstile, stands for «proves», «satisfies»
+<Multi_key> <minus> <space>	: "— "			# EM DASH (followed by space), overrides default tilde which is in my keyboard anyway
